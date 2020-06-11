@@ -1,10 +1,25 @@
-import React from "react";
+import React, { Component } from "react";
+import employees from "./employees.json";
+import Table from "./components/table";
 
 
-function App() {
+class App extends Component {
+
+    state = {
+        employees: employees
+    };
+
+
+
+render(){
     return (
-        co
-    )
+         <div className="container">
+        <Table employees={this.state.employees} />
+
+
+         </div>
+        )
+    }
 }
 
 export default App;
