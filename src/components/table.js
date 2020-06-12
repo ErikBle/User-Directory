@@ -1,5 +1,6 @@
 import React from "react";
 
+// Returns how the table will look
 function Table (props) {
   return (
     <table className="table table-dark">
@@ -8,20 +9,18 @@ function Table (props) {
           <th scope="col">#</th>
           <th scope="col">First Name</th>
           <th scope="col">Last Name</th>
-          <th scope="col">Employee ID</th>
           <th scope="col">Phone Number</th>
           <th scope="col">Department</th>
         </tr>
       </thead>
       <tbody>
-          {props.employees.map(item => (
-            <tr key={item.id}>
-              <th scope="row">{item.id}</th>
-              <td>{item.firstName}</td>
-              <td>{item.lastName}</td>
-              <td>{item.employeeID}</td>
-              <td>{item.phone}</td>
-              <td>{item.department}</td>
+          {props.employees.map(data => (
+            <tr key={data.id}>
+              <th scope="row">{data.id}</th>
+              <td>{data.firstName}</td>
+              <td>{data.lastName}</td>
+              <td>{data.phone}</td>
+              <td>{data.department}</td>
             </tr>
           ))}
       </tbody>

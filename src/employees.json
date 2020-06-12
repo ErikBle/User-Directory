@@ -3,7 +3,6 @@
       "id": 1,
       "firstName": "Erik",
       "lastName":"Bleck",
-      "employeeID": 3128,
       "phone": "5552478569",
       "department": "Security"
     },
@@ -11,7 +10,6 @@
       "id": 2,
       "firstName": "Bruce",
       "lastName": "Wayne",
-      "employeeID": 2525,
       "phone": "5559873566",
       "department": "Security"
     },
@@ -19,7 +17,6 @@
       "id": 3,
       "firstName": "Clark",
       "lastName": "Kent",
-      "employeeID": 1111,
       "phone": "5552393456",
       "department": "CEO"
     },
@@ -27,7 +24,6 @@
         "id": 4,
         "firstName": "Frank",
         "lastName": "Castle",
-        "employeeID": 6663,
         "phone": "5556789012",
         "department": "HR"
       }
@@ -36,7 +32,6 @@
         "id": 5,
         "firstName": "Selena",
         "lastName": "Kyle",
-        "employeeID": 3456,
         "phone": "5553456789",
         "department": "Security"
       },
@@ -44,7 +39,6 @@
           "id": 6,
           "firstName": "Matt",
           "lastName": "Murdock",
-          "employeeID": 6543,
           "phone": "5553852764",
           "department": "Legal"
         },
@@ -52,7 +46,6 @@
          "id": 7,
         "firstName": "Steve",
         "lastName": "Rogers",
-         "employeeID": 6565,
          "phone": "5552345678",
          "department": "Legal"
           }
