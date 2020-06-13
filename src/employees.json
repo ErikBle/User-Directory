@@ -2,29 +2,29 @@
     {
       "id": 1,
       "firstName": "Erik",
-      "lastName":"Bleck",
-      "phone": "5552478569",
+      "lastName":"Blecker",
+      "phone": "555-247-8569",
       "department": "Security"
     },
     {
       "id": 2,
       "firstName": "Bruce",
       "lastName": "Wayne",
-      "phone": "5559873566",
+      "phone": "555-987-3566",
       "department": "Security"
     },
     {
       "id": 3,
       "firstName": "Clark",
       "lastName": "Kent",
-      "phone": "5552393456",
+      "phone": "555-239-3456",
       "department": "CEO"
     },
     {
         "id": 4,
         "firstName": "Frank",
         "lastName": "Castle",
-        "phone": "5556789012",
+        "phone": "555-678-9012",
         "department": "HR"
       }
       ,
@@ -32,21 +32,21 @@
         "id": 5,
         "firstName": "Selena",
         "lastName": "Kyle",
-        "phone": "5553456789",
+        "phone": "555-345-6789",
         "department": "Security"
       },
       {
           "id": 6,
           "firstName": "Matt",
           "lastName": "Murdock",
-          "phone": "5553852764",
+          "phone": "555-385-2764",
           "department": "Legal"
         },
         {
          "id": 7,
         "firstName": "Steve",
         "lastName": "Rogers",
-         "phone": "5552345678",
+         "phone": "555-234-5678",
          "department": "Legal"
           }
 ]
