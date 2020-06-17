@@ -1,8 +1,10 @@
 import React from "react";
 
-// Returns how the table will look
-function Table (props) {
+
+function Table(props) {
   return (
+    <div>
+
     <table className="table table-dark">
       <thead>
         <tr>
@@ -22,11 +24,11 @@ function Table (props) {
               <td>{data.phone}</td>
               <td>{data.department}</td>
             </tr>
-          ))}
+               ))}
       </tbody>
     </table>
-  );
-}
+    </div>
 
+  )}
 
 export default Table;
