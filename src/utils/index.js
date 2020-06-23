@@ -109,7 +109,7 @@ class User extends Component {
             Department
           </button>
         </div>
-
+      
         <div>
           <Table employees={this.state.employees} />
         </div>
