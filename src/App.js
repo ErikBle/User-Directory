@@ -1,10 +1,10 @@
 import React from "react"; 
-import Sort from "./utils/";
+import User from "./utils/";
 
     function App() {
     return (
         <div className="container">
-        <Sort/>
+        <User/>
        </div>
     )
     }
